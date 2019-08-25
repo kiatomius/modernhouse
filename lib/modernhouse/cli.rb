@@ -10,7 +10,6 @@ class Modernhouse::CLI
     puts "Houses Currently on sale:"
     @houses = Modernhouse::House.today
     @houses.each.with_index(1) do |house, i|
-      #puts "#{i}. #{house.name} - #{house.price} - #{house.availability}"
       puts "#{i}. #{house.name} - #{house.price}"
     end
   end
@@ -27,8 +26,9 @@ class Modernhouse::CLI
         puts "Building Price: #{the_house.price}"
         puts "Building Location: #{the_house.location}"
         puts "#{the_house.architect}"
+        puts "Description:"
         puts "#{the_house.description}"
-        puts "for more information, visit url: #{the_house.url}"
+        puts "For more information, visit url: #{the_house.url}"
 
       elsif input == "list"
         list_houses
@@ -39,6 +39,6 @@ class Modernhouse::CLI
   end
 
   def goodbye
-    puts "See you tomorrow for more deals!!!"
+    puts "See you again for more houses!!!"
   end
 end

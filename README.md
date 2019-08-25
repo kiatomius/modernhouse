@@ -1,10 +1,13 @@
-# Modernhouse
+# Modern House
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/modernhouse`. To experiment with that code, run `bin/console` for an interactive prompt.
+This project explores the property data that is listed in https://www.themodernhouse.com.
+The CLI allows the user to list the top properties that are listed as on-sale on the website, and gives you the option to explore further detail about the particular property that you are interested in.
 
-TODO: Delete this and the text above, and describe your gem
+## Getting Started
 
-## Installation
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Installing
 
 Add this line to your application's Gemfile:
 
@@ -20,16 +23,21 @@ Or install it yourself as:
 
     $ gem install modernhouse
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/'charming-validator-1451'/modernhouse.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+## Authors
+
+* **Motoaki Sumi** - *Initial work* - [PurpleBooth](https://github.com/motoakisumi)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
